@@ -4,8 +4,7 @@ This repository contains a Terraform module for querying for a certificate manag
 
 ## Usage
 
-The following example deploys a NodeJS-based Lambda function and creates a
-public-facing API Gateway proxy in front of it.
+The following example queries ACM for a certificate and returns its ARN.
 
 ```hcl
 module "certificate" {
