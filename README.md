@@ -10,7 +10,7 @@ The following example queries ACM for a certificate and returns its ARN.
 
 ```hcl
 module "certificate" {
-  source   = "eric-gonzales/terraform-aws-acm-certificate"
+  source   = "eric-gonzales/terraform-aws-acm-certificate/aws"
 
   domain   = "*.example.com"
   types    = ["IMPORTED"]
